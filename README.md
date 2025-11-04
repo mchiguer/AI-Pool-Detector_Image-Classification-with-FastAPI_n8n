@@ -1,4 +1,4 @@
-#  AI Pool Detector — Image Classification with FastAPI, n8n & GPT-4o
+#  AI Pool Detector — Image Classification with FastAPI & n8n 
 
 This project is a full-stack AI web application that detects the presence of a swimming pool in an image.  
 It combines a **FastAPI backend**, a **simple web frontend**, and an **n8n workflow** that connects to **OpenAI GPT-4o (Vision)** for intelligent image analysis.
