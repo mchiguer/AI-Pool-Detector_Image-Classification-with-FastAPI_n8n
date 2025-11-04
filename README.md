@@ -4,7 +4,7 @@ This project is a full-stack AI web application that detects the presence of a s
 It combines a **FastAPI backend**, a **simple web frontend**, and an **n8n workflow** that connects to **OpenAI GPT-4o (Vision)** for intelligent image analysis.
 
 ---
-
+![Texte alternatif](Screen from n8n.png)
 ##  Overview
 
 The system lets users upload a photo of a house or building.  
