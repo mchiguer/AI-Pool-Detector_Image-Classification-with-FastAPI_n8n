@@ -14,7 +14,9 @@ n8n calls **GPT-4o** to analyze the visual content and returns a JSON prediction
 
 
 This screenshot shows the web application, where the user uploads an image and receives the prediction about the swimming pool presence : 
+![](WebApp.png)
 
+Response : 
 ```json
 {
   "category": "villa with swimming pool",
