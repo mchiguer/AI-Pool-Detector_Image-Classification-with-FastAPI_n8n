@@ -1,16 +1,19 @@
 #  AI Pool Detector — Image Classification with FastAPI & n8n 
 
-![](Screen from n8n.png)
-
 This project is a full-stack AI web application that detects the presence of a swimming pool in an image.  
 It combines a **FastAPI backend**, a **simple web frontend**, and an **n8n workflow** that connects to **OpenAI GPT-4o (Vision)** for intelligent image analysis.
+
+This screenshot shows the n8n workflow, where the image processing is managed and forwarded to GPT-4o for analysis : 
+![](n8n.png)
+
 ---
-
 ##  Overview
-
 The system lets users upload a photo of a house or building.  
 The image is sent to the backend (FastAPI), which forwards it to n8n.  
 n8n calls **GPT-4o** to analyze the visual content and returns a JSON prediction like:
+
+
+This screenshot shows the web application, where the user uploads an image and receives the prediction about the swimming pool presence : 
 
 ```json
 {
